@@ -14,14 +14,12 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <img src="..." alt="..." class="float-left">
+                <img src="$movie" alt="..." class="float-left">
             </div>
             <div class="col-sm">
-            @foreach($movie as $m)
-                <h5>$m->title</h5>
-                <p class="text-justify">$m->description</p>
-                <p class="text-justify">kategori: </p> <a href="#" class="text-decoration-none"></a>
-            @endforeach
+                <h2>{{$movie->title}}</h2>
+                <p class="text-justify">{{$movie->description}}</p>
+                <p class="text-justify">kategori: </p> <a href="" class="text-decoration-none">{{$genre->name}}</a>
             </div>
             <div class="col-sm">
                 <h5>EPISODE</h5>
@@ -35,24 +33,13 @@
                     <tbody>
                         @foreach($episodes as $e)
                         <tr>
-                            <th scope="row">1</th>
-                            <td>{{$e->episodes}}</td>
-                            <td>{{$e->title}}</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>{{$e->episodes}}</td>
-                            <td>{{$e->title}}</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>{{$e->episodes}}</td>
+                            <td>{{$e->episode}}</td>
                             <td>{{$e->title}}</td>
                         </tr>
                         @endforeach
                     </tbody>
                 </table>
-
+                {{ $episodes->links() }}
 
             </div>
         </div>
