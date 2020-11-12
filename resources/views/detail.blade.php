@@ -33,21 +33,21 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($detail as $d)
+                        @foreach($episodes as $e)
                         <tr>
                             <th scope="row">1</th>
-                            <td>{{$d->episodes}}</td>
-                            <td>{{$d->title}}</td>
+                            <td>{{$e->episodes}}</td>
+                            <td>{{$e->title}}</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>{{$d->episodes}}</td>
-                            <td>{{$d->title}}</td>
+                            <td>{{$e->episodes}}</td>
+                            <td>{{$e->title}}</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>{{$d->episodes}}</td>
-                            <td>{{$d->title}}</td>
+                            <td>{{$e->episodes}}</td>
+                            <td>{{$e->title}}</td>
                         </tr>
                         @endforeach
                     </tbody>
