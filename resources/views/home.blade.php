@@ -39,28 +39,28 @@
             <img src="./image/itsok.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">It's Okay to Not Be Okay</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/Goblin.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">Goblin</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/CLOY.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">Crash Landing On You</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/thefierypriest.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">The Fiery Priest (2019)</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
     </div>
@@ -71,28 +71,28 @@
             <img src="./image/avatar.jpg" class="card-img-top" alt="gambaravatar">
             <div class="card-body">
                 <h5 class="card-title">Avatar: The Last Airbender</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/naruto.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">Naruto</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/spongebob.jpeg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">SpongeBob SquarePants</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/spiderman.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">Spider-Man</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
     </div>
@@ -103,28 +103,28 @@
             <img src="./image/Twogether.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">Twogether</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/Rm.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">Running Man</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/tros.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">The Return of Superman</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
         <div class="card">
             <img src="./image/twodays.jpg" class="card-img-top" alt="">
             <div class="card-body">
                 <h5 class="card-title">2 Days & 1 Night</h5>
-                <a href="#" class="btn btn-primary">LIHAT FILM</a>
+                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
     </div>

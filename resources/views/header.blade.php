@@ -11,5 +11,8 @@
 
 <div class="buttongroup" role="group" aria-label="Basic example">
     <button onclick="window.history.back()" type="button" class="btn btn-secondary">KEMBALI</button>
-    <button onclick="" type="button" class="btn btn-secondary">LIHAT SEMUA FILM</button>
+    
+    <a href=" {{ route('/home') }}">
+    <button type="button" class="btn btn-secondary">LIHAT SEMUA FILM</button>
+    </a>
 </div>
