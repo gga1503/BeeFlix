@@ -18,6 +18,7 @@ class EpisodeController extends Controller
         $episodes = Episode::where('movie_id', $movie_id)->paginate(3);
         $genre = Genre::findOrFail($movie->genre_id);
 
+//        return compact('movie', 'episodes', 'genre');
         return view('detail', compact('movie', 'episodes', 'genre'));
     }
 
