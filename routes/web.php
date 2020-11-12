@@ -2,6 +2,7 @@
 
 
 use App\Http\Controllers\EpisodeController;
+use App\Http\Controllers\GenreController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,14 +17,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
 Route::get('/home', function () {
     return view('home');
 });
 
 Route::get('/detail/{id}', [EpisodeController::class, 'detail']);
 
-Route::get('/kategori', function () {
-    return view('kategori');
-});
+Route::get('/kategori/{id}', [GenreController::class, 'genre']);

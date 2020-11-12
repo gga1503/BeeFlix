@@ -31,35 +31,16 @@
 
     <h3>DRAMA</h3>
 
+    @foreach($genres->movies as $movie)
     <div class="card-group">
         <div class="card">
-            <img src="./image/itsok.jpg" class="card-img-top" alt="">
+            <img src="{{$movie->photo}}" class="card-img-top" alt="">
             <div class="card-body">
-                <h5 class="card-title">It's Okay to Not Be Okay</h5>
-                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./image/Goblin.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Goblin</h5>
-                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./image/CLOY.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">Crash Landing On You</h5>
-                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="./image/thefierypriest.jpg" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 class="card-title">The Fiery Priest (2019)</h5>
-                <a href="{{ route('/detail') }}" class="btn btn-primary">LIHAT FILM</a>
+                <h5 class="card-title">{{$movies->title}}</h5>
+                <a href="/detail/{{$movie->id}}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>
     </div>
+    @endforeach
 </body>
 </html>

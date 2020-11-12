@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <title>Document</title>
 </head>
+<style>
+    .card-img{
+        width: 10vw;
+        height: 30vw;
+    }
+</style>
 
 <body>
     @include('header')
 
     <div class="container">
         <div class="row">
-            <div class="col-sm">
-                <img src="{{$movie->photo}}" alt="..." class="float-left">
+            <div class="col-foto">
+                <img src="{{$movie->photo}}" alt="foto" class="card-img">
             </div>
             <div class="col-sm">
                 <h2>{{$movie->title}}</h2>
                 <p class="text-justify">{{$movie->description}}</p>
-                <p class="text-justify">kategori: </p> <a href="" class="text-decoration-none">{{$genre->name}}</a>
+                <p class="text-justify">kategori: </p> <a href="/kategori/{{$genre->id}}" class="text-decoration-none">{{$genre->name}}</a>
             </div>
             <div class="col-sm">
                 <h5>EPISODE</h5>
