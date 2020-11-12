@@ -31,12 +31,13 @@
 
     <h3>DRAMA</h3>
 
-    @foreach($genres->movies as $movie)
+
+    @foreach($genres[0]->movies as $movie)
     <div class="card-group">
         <div class="card">
-            <img src="{{$movie->photo}}" class="card-img-top" alt="">
+            <img src="/{{$movie->photo}}" class="card-img-top" alt="">
             <div class="card-body">
-                <h5 class="card-title">{{$movies->title}}</h5>
+                <h5 class="card-title">{{$movie->title}}</h5>
                 <a href="/detail/{{$movie->id}}" class="btn btn-primary">LIHAT FILM</a>
             </div>
         </div>

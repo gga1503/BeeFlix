@@ -8,9 +8,9 @@
     <title>Document</title>
 </head>
 <style>
-    .card-img{
-        width: 10vw;
-        height: 30vw;
+    .card-img,.foto{
+        width: 300px;
+        padding-top: 7px;
     }
 </style>
 
