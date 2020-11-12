@@ -9,9 +9,8 @@ class MovieController extends Controller
 {
     public function index()
     {
-        $movies = Movie::where('title, photo, description, rating');
+        $movies = Movie::where('photo');
         return view('detail', ['movie'=>$movies]);
-        
     }
 
 }

@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <img src="$movie" alt="..." class="float-left">
+                <img src="{{$movie->photo}}" alt="..." class="float-left">
             </div>
             <div class="col-sm">
                 <h2>{{$movie->title}}</h2>
